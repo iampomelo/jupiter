@@ -2,7 +2,6 @@ const Koa = require('koa');
 const Router = require('koa-router');
 const server = new Koa();
 const router = new Router();
-const views = require('koa-views');
 const Vue = require('vue');
 const renderer = require('vue-server-renderer').createRenderer();
 const fs = require('fs');
