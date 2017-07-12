@@ -12,6 +12,9 @@
     "koa-router": "^7.2.1",
     "koa-views": "^6.0.2",
     "vue": "^2.3.4",
-    "vue-server-renderer": "^2.3.4"
+    "vue-router": "^2.7.0",
+    "vue-server-renderer": "^2.3.4",
+    "vuex": "^2.3.1",
+    "vuex-router-sync": "^4.2.0"
   }
 }
