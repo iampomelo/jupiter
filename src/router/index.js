@@ -8,7 +8,7 @@ export function createRouter() {
     mode: 'history',
     routes: [{
       path: '/',
-      component: resolve => require(['../components/Hello'], resolve)
+      component: () => import('../components/Hello.vue')
     }]
   });
 }
