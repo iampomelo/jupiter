@@ -7,8 +7,8 @@ export function createRouter() {
   return new Router({
     mode: 'history',
     routes: [{
-      path: '/',
-      component: resolve => require(['../components/Hello'], resolve)
+      path: '/hello/:id',
+      component: () => import('./components/Hello.vue')
     }]
   });
 }

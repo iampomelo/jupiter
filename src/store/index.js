@@ -16,6 +16,11 @@ export function createStore() {
       SETID(state, {id}) {
         state = id;
       }
+    },
+    getters: {
+      id(state) {
+        return state.id;
+      }
     }
   });
 }
